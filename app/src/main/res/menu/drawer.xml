@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:id="@+id/grupo1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_usuario"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_album"
+            android:icon="@drawable/ic_album"
+            android:title="Album" />
+        <item
+            android:id="@+id/nav_tienda"
+            android:icon="@drawable/ic_store"
+            android:title="Tienda" />
+
+        <item
+            android:id="@+id/nav_sesion"
+            android:icon="@drawable/ic_sesion"
+            android:title="Cerrar Sesión" />
+    </group>
+
+    <group android:id="@+id/grupo2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_compartir"
+            android:icon="@drawable/ic_share"
+            android:title="Compartir" />
+        <item
+            android:id="@+id/nav_terminos"
+            android:icon="@drawable/ic_conditions"
+            android:title="Términos y condiciones"/>
+        <item
+            android:id="@+id/version"
+            android:title="Versión 1.0.0"
+            android:enabled="false"/>
+    </group>
+
+</menu>

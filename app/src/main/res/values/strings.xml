@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Yala</string>
+
+
+    <string name="facebook_app_id">890270087818608</string>
+    <string name="fb_login_protocol_scheme">fb890270087818608</string>
+
+
+    <!--Strings -->
+    <string name="cancel_login">Logueate bien pulpin</string>
+
+    <string name="erro_login">Mataremos a nuestro desarrollador</string>
+    <string name="firebase_error_login">Error en Firebase</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>
